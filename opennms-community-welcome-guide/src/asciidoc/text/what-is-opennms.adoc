@@ -5,7 +5,7 @@
 [[ocwg-what-is-opennms]]
 == What is OpenNMS
 
-_OpenNMS_ is a free and open network management platform to give you the ability to solve problems in the domain of FCAPS footnote:[ISO Telecommunications Management Network model and framework for Fault, Configuration, Accounting, Performance and Security categories] developed under the link:http://www.gnu.org/licenses/agpl-3.0.html[Affero GNU Public License Version 3] license.
+_OpenNMS_ is a free and open network management platform to give you the ability to solve problems in the domain of FCAPS footnote:[ISO Telecommunications Management Network model and framework for Fault, Configuration, Accounting, Performance and Security categories] developed under the link:http://www.gnu.org/licenses/agpl-3.0.html[GNU Affero General Public License Version 3] license.
 Main focus of _OpenNMS_ is fault- and performance management.
 The application gives you access to the management data through a web interface and open a _ReST API_.
 The _OpenNMS_ project is a collaboration of developers and network management specialists around the world, aiming to produce an open standard for a network management platform.
@@ -29,8 +29,8 @@ To be able to integrate application specific performance data it is possible to 
 
 .Provisioning
 Large networks build workflows to define a life cycle of devices and applications in a network.
-The system for _Provisioning_ gives entry points to get nodes and services in and out of monitoring.
-Service and node detection can be manually, programmatic or automatically detected and allows also a flexible mixture of both.
+The _Provisioning system_ provides entry points in the UI, on the command line, and via programming interfaces to allow you to add, modify, and remove nodes and services.
+In addition to specifying what to manage up front, services and nodes can also be automatically detected and the system allows a flexible mixture of both types of provisioning.
 
 .Notifications
 Monitoring services is not enough and it is often necessary to establish workflows to get peoples attention to deal with outages.
