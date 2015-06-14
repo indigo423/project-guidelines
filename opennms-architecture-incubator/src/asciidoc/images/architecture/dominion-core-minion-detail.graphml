@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.14.2-->
+  <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d0"/>
+    <node id="n0">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="160.3974609375" width="1387.6361762152778" x="-487.3756510416665" y="617.6025390625"/>
+          <y:Fill color="#D3D7CF" transparent="false"/>
+          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="right" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="27.30000114440918" modelName="internal" modelPosition="r" textColor="#000000" visible="true" width="446.2200012207031" x="937.4161749945747" y="66.54872989654541">Integration layer for technology specific protocols</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="237.6044921875" width="1387.6361762152778" x="-487.4078776041665" y="-389.3886718749999"/>
+          <y:Fill color="#D3D7CF" transparent="false"/>
+          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="right" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="50.60000228881836" modelName="internal" modelPosition="r" textColor="#000000" visible="true" width="205.89999389648438" x="1177.7361823187935" y="93.50224494934082">Aggregated view of
+multiple Core Systems</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="237.6044921875" width="1387.6361762152778" x="-487.4078776041665" y="10.2080078125"/>
+          <y:Fill color="#D3D7CF" transparent="false"/>
+          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="right" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="50.60000228881836" modelName="internal" modelPosition="r" textColor="#000000" visible="true" width="320.719970703125" x="1062.9162055121528" y="93.50224494934082">Scheduling and configuration Layer
+for multiple Minions</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="123.02680948710793" width="1387.6361762152778" x="-487.3756510416665" y="475.5749988555909"/>
+          <y:Fill color="#D3D7CF" transparent="false"/>
+          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="right" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="27.30000114440918" modelName="internal" modelPosition="r" textColor="#000000" visible="true" width="252.17999267578125" x="1131.4561835394966" y="47.86340417134937">Worker for monitoring tasks</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n4" yfiles.foldertype="group">
+      <data key="d4"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="322.7570323944092" width="852.810546875" x="-455.6640624999999" y="475.5749988555908"/>
+              <y:Fill hasColor="false" transparent="false"/>
+              <y:BorderStyle color="#666699" type="line" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#729FCF" borderDistance="0.0" fontFamily="Helvetica Neue" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.475000381469727" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="852.810546875" x="0.0" y="0.0">OpenNMS Minion</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="1" rightF="0.982421875" top="0" topF="0.0"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="50.0" width="50.0" x="60.0" y="60.0"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="63.75830078125" x="-6.879150390625" y="0.0">Folder 6</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n4:">
+        <node id="n4::n0" yfiles.foldertype="group">
+          <data key="d4"/>
+          <data key="d6">
+            <y:ProxyAutoBoundsNode>
+              <y:Realizers active="0">
+                <y:GroupNode>
+                  <y:Geometry height="265.95000076293945" width="121.0" x="-440.6640624999999" y="512.0499992370605"/>
+                  <y:Fill hasColor="false" transparent="false"/>
+                  <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#729FCF" borderDistance="0.0" fontFamily="Helvetica Neue" fontSize="15" fontStyle="plain" hasLineColor="false" height="38.95000076293945" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="121.0" x="0.0" y="0.0">Service
+Availability</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+                <y:GroupNode>
+                  <y:Geometry height="50.0" width="50.0" x="60.0" y="60.0"/>
+                  <y:Fill color="#CAECFF80" transparent="false"/>
+                  <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="63.75830078125" x="-6.879150390625" y="0.0">Folder 1</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="true" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+              </y:Realizers>
+            </y:ProxyAutoBoundsNode>
+          </data>
+          <graph edgedefault="directed" id="n4::n0:">
+            <node id="n4::n0::n0">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="25.0" width="91.0" x="-425.6640624999999" y="566.0"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="41.54800033569336" x="24.72599983215332" y="4.0">Pollerd</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n4::n0::n1">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="142.0" width="20.0" x="-425.6640624999999" y="621.0"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" visible="true" width="34.215999603271484" x="1.010000228881836" y="53.89200019836426">HTTP</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n4::n0::n2">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="142.0" width="20.0" x="-391.6640624999999" y="621.0"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" visible="true" width="34.0" x="1.010000228881836" y="54.0">ICMP</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n4::n0::n3">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="142.0" width="20.0" x="-357.6640624999999" y="621.0"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" visible="true" width="46.2400016784668" x="1.010000228881836" y="47.8799991607666">JSR223</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+          </graph>
+        </node>
+        <node id="n4::n1" yfiles.foldertype="group">
+          <data key="d4"/>
+          <data key="d6">
+            <y:ProxyAutoBoundsNode>
+              <y:Realizers active="0">
+                <y:GroupNode>
+                  <y:Geometry height="265.95000076293945" width="121.0" x="-265.4570312499999" y="512.0499992370605"/>
+                  <y:Fill hasColor="false" transparent="false"/>
+                  <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#729FCF" borderDistance="0.0" fontFamily="Helvetica Neue" fontSize="15" fontStyle="plain" hasLineColor="false" height="38.95000076293945" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="121.0" x="0.0" y="0.0">Data
+Collection
+</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+                <y:GroupNode>
+                  <y:Geometry height="50.0" width="50.0" x="60.0" y="60.0"/>
+                  <y:Fill color="#CAECFF80" transparent="false"/>
+                  <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="63.75830078125" x="-6.879150390625" y="0.0">Folder 1</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="true" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+              </y:Realizers>
+            </y:ProxyAutoBoundsNode>
+          </data>
+          <graph edgedefault="directed" id="n4::n1:">
+            <node id="n4::n1::n0">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="142.0" width="20.0" x="-250.4570312499999" y="621.0"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" visible="true" width="38.667999267578125" x="1.010000228881836" y="51.66600036621094">SNMP</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n4::n1::n1">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="142.0" width="20.0" x="-214.9570312499999" y="621.0"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" visible="true" width="28.012001037597656" x="1.010000228881836" y="56.99399948120117">JMX</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n4::n1::n2">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="142.0" width="20.0" x="-179.4570312499999" y="621.0"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" visible="true" width="46.2400016784668" x="1.010000228881836" y="47.8799991607666">JSR223</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n4::n1::n3">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="25.0" width="91.0" x="-250.4570312499999" y="566.0"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="48.663997650146484" x="21.168001174926758" y="4.0">Collectd</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+          </graph>
+        </node>
+        <node id="n4::n2" yfiles.foldertype="group">
+          <data key="d4"/>
+          <data key="d6">
+            <y:ProxyAutoBoundsNode>
+              <y:Realizers active="0">
+                <y:GroupNode>
+                  <y:Geometry height="265.95000076293945" width="121.0" x="-90.24999999999989" y="514.7160148620605"/>
+                  <y:Fill hasColor="false" transparent="false"/>
+                  <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#729FCF" borderDistance="0.0" fontFamily="Helvetica Neue" fontSize="15" fontStyle="plain" hasLineColor="false" height="38.95000076293945" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="121.0" x="0.0" y="0.0">Passive
+Logging</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+                <y:GroupNode>
+                  <y:Geometry height="50.0" width="50.0" x="60.0" y="60.0"/>
+                  <y:Fill color="#CAECFF80" transparent="false"/>
+                  <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="63.75830078125" x="-6.879150390625" y="0.0">Folder 1</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="true" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+              </y:Realizers>
+            </y:ProxyAutoBoundsNode>
+          </data>
+          <graph edgedefault="directed" id="n4::n2:">
+            <node id="n4::n2::n0">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="142.0" width="20.0" x="-75.24999999999989" y="623.666015625"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" visible="true" width="40.215999603271484" x="1.010000228881836" y="50.89200019836426">Syslog</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n4::n2::n1">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="142.0" width="20.0" x="-39.749999999999886" y="623.666015625"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" visible="true" width="72.447998046875" x="1.010000228881836" y="34.7760009765625">SNMP Traps</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n4::n2::n2">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="142.0" width="20.0" x="-4.249999999999886" y="623.666015625"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" visible="true" width="99.80799102783203" x="1.010000228881836" y="21.096004486083984">OpenNMS Events</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n4::n2::n3">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="25.0" width="91.0" x="-75.24999999999989" y="568.666015625"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="30.447999954223633" x="30.276000022888184" y="4.0">Logs</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+          </graph>
+        </node>
+        <node id="n4::n3" yfiles.foldertype="group">
+          <data key="d4"/>
+          <data key="d6">
+            <y:ProxyAutoBoundsNode>
+              <y:Realizers active="0">
+                <y:GroupNode>
+                  <y:Geometry height="265.95000076293945" width="121.0" x="84.95703125000011" y="517.3820304870605"/>
+                  <y:Fill hasColor="false" transparent="false"/>
+                  <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#729FCF" borderDistance="0.0" fontFamily="Helvetica Neue" fontSize="15" fontStyle="plain" hasLineColor="false" height="38.95000076293945" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="121.0" x="0.0" y="0.0">Provisioning
+Asset Discovery</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+                <y:GroupNode>
+                  <y:Geometry height="50.0" width="50.0" x="758.75" y="485.66796875"/>
+                  <y:Fill color="#CAECFF80" transparent="false"/>
+                  <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="63.75830078125" x="-6.879150390625" y="0.0">Folder 1</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="true" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+              </y:Realizers>
+            </y:ProxyAutoBoundsNode>
+          </data>
+          <graph edgedefault="directed" id="n4::n3:">
+            <node id="n4::n3::n0">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="142.0" width="20.0" x="99.95703125000011" y="626.33203125"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" visible="true" width="90.22000122070312" x="1.010000228881836" y="25.889999389648438">ICMP Discovery</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n4::n3::n1">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="142.0" width="20.0" x="135.4570312500001" y="626.33203125"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" visible="true" width="99.32799530029297" x="1.010000228881836" y="21.336002349853516">Service Detectors</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n4::n3::n2">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="142.0" width="20.0" x="170.9570312500001" y="626.33203125"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" visible="true" width="128.2239990234375" x="1.010000228881836" y="6.88800048828125">SNMP Asset Discovery</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n4::n3::n3">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="25.0" width="91.0" x="99.95703125000011" y="571.33203125"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="60.66400146484375" x="15.167999267578125" y="4.0">Provisiond</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+          </graph>
+        </node>
+        <node id="n4::n4" yfiles.foldertype="group">
+          <data key="d4"/>
+          <data key="d6">
+            <y:ProxyAutoBoundsNode>
+              <y:Realizers active="0">
+                <y:GroupNode>
+                  <y:Geometry height="265.95000076293945" width="121.0" x="260.1640625000001" y="517.3820304870605"/>
+                  <y:Fill hasColor="false" transparent="false"/>
+                  <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#729FCF" borderDistance="0.0" fontFamily="Helvetica Neue" fontSize="15" fontStyle="plain" hasLineColor="false" height="38.95000076293945" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="121.0" x="0.0" y="0.0">Enhanced
+Link Discovery</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+                <y:GroupNode>
+                  <y:Geometry height="50.0" width="50.0" x="60.0" y="60.0"/>
+                  <y:Fill color="#CAECFF80" transparent="false"/>
+                  <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="63.75830078125" x="-6.879150390625" y="0.0">Folder 1</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="true" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+              </y:Realizers>
+            </y:ProxyAutoBoundsNode>
+          </data>
+          <graph edgedefault="directed" id="n4::n4:">
+            <node id="n4::n4::n0">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="142.0" width="20.0" x="275.1640625000001" y="626.33203125"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" visible="true" width="64.44400405883789" x="1.010000228881836" y="38.777997970581055">Bridge MIB</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n4::n4::n1">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="142.0" width="20.0" x="310.6640625000001" y="626.33203125"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" visible="true" width="30.43600082397461" x="1.010000228881836" y="55.781999588012695">IS-IS</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n4::n4::n2">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="142.0" width="20.0" x="346.1640625000001" y="626.33203125"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" visible="true" width="35.560001373291016" x="1.010000228881836" y="53.21999931335449">OSPF</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n4::n4::n3">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="25.0" width="91.0" x="275.1640625000001" y="571.33203125"/>
+                  <y:Fill color="#729FCF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="45.35200119018555" x="22.823999404907227" y="4.0">E-Linkd</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+          </graph>
+        </node>
+      </graph>
+    </node>
+    <node id="n5">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="204.65624999999997" x="-132.0781249999999" y="318.5009765625"/>
+          <y:Fill color="#FCE94F" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="custom" textColor="#000000" visible="true" width="97.3239974975586" x="53.66612625122069" y="6.010000228881836">Secured Network<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="319.0" x="77.65527343750006" y="318.5009765625"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.959999084472656" modelName="custom" textColor="#000000" visible="true" width="251.59600830078125" x="33.701995849609375" y="-0.9799995422363281">Direction to establish connection should be
+configurable (minion to dominon or vice versa)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n7" yfiles.foldertype="group">
+      <data key="d4"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="105.47500038146973" width="851.828125" x="-456.1552734374999" y="84.52499961853027"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#8AE234" borderDistance="0.0" fontFamily="Helvetica Neue" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.475000381469727" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="851.828125" x="0.0" y="0.0">OpenNMS Core</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="50.0" width="50.0" x="60.0" y="60.0"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="63.75830078125" x="-6.879150390625" y="0.0">Folder 7</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n7:">
+        <node id="n7::n0">
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="54.000000000000014" width="152.328125" x="-441.1552734374999" y="121.0"/>
+              <y:Fill color="#8AE234" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.959999084472656" modelName="custom" textColor="#000000" visible="true" width="86.22400665283203" x="33.052059173583984" y="11.020000457763672">Configure
+Data Collection<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n7::n1">
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="54.000000000000014" width="152.328125" x="-273.7802734374999" y="121.0"/>
+              <y:Fill color="#8AE234" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.959999084472656" modelName="custom" textColor="#000000" visible="true" width="83.31999969482422" x="34.50406265258789" y="11.020000457763672">Configure
+Service Polling<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n7::n2">
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="54.000000000000014" width="152.328125" x="-106.40527343749989" y="121.0"/>
+              <y:Fill color="#8AE234" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="custom" textColor="#000000" visible="true" width="66.66399765014648" x="42.83206367492676" y="18.010000228881836">Persistence<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n7::n3">
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="54.000000000000014" width="152.328125" x="60.969726562500114" y="121.0"/>
+              <y:Fill color="#8AE234" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.959999084472656" modelName="custom" textColor="#000000" visible="true" width="99.80799102783203" x="26.260066986083984" y="11.020000457763672">Processing to
+OpenNMS Events<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n7::n4">
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="54.000000000000014" width="152.328125" x="228.3447265625001" y="121.0"/>
+              <y:Fill color="#8AE234" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="custom" textColor="#000000" visible="true" width="63.10000228881836" x="44.61406135559082" y="18.010000228881836">Correlation<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n8" yfiles.foldertype="group">
+      <data key="d4"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="97.10000038146973" width="851.828125" x="-456.1552734374999" y="-299.7679691314697"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#FCAF3E" borderDistance="0.0" fontFamily="Helvetica Neue" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.475000381469727" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="851.828125" x="0.0" y="0.0">OpenNMS Dominion</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="50.0" width="50.0" x="60.0" y="60.0"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="63.75830078125" x="-6.879150390625" y="0.0">Folder 8</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n8:">
+        <node id="n8::n0">
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="45.624999999999986" width="152.328125" x="-441.1552734374999" y="-263.29296875"/>
+              <y:Fill color="#FCAF3E" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.959999084472656" modelName="custom" textColor="#000000" visible="true" width="134.02000427246094" x="9.154060363769531" y="6.832500457763672">Web based visualisation
+Monitoring information<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n8::n1">
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="45.624999999999986" width="152.328125" x="-106.40527343749989" y="-263.29296875"/>
+              <y:Fill color="#FCAF3E" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.959999084472656" modelName="custom" textColor="#000000" visible="true" width="120.447998046875" x="15.9400634765625" y="6.832500457763672">Aggregate Monitoring
+Information<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n8::n2">
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="45.624999999999986" width="152.328125" x="228.3447265625001" y="-263.29296875"/>
+              <y:Fill color="#FCAF3E" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.959999084472656" modelName="custom" textColor="#000000" visible="true" width="120.447998046875" x="15.9400634765625" y="6.832500457763672">Aggregate Monitoring
+Information<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n9">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="204.65624999999997" x="-132.5693359374999" y="-74.1669921875"/>
+          <y:Fill color="#FCE94F" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" modelName="custom" textColor="#000000" visible="true" width="97.3239974975586" x="53.66612625122069" y="6.010000228881836">Secured Network<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="319.0" x="78.14648437500011" y="-74.1669921875"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.959999084472656" modelName="custom" textColor="#000000" visible="true" width="210.03997802734375" x="54.480010986328125" y="-0.9799995422363281">Poll or get data provided from multiple
+OpenNMS core instances<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <edge id="e0" source="n7" target="n5">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="52.86194944381714" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="2.0"/>
+          <y:Arrows source="standard" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n5" target="n4">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n9" target="n8">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-14.990234375" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n7" target="n9">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-1.4210854715202004E-14" sy="-30.812825520833428" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="2.0"/>
+          <y:Arrows source="standard" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d7">
+    <y:Resources/>
+  </data>
+</graphml>

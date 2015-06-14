@@ -1,0 +1,25 @@
+
+// Allow GitHub image rendering
+:imagesdir: ../../images
+
+=== Datacenter
+
+This scenario describes a network with multiple data centers.
+The order of magnitude for the amount of data center is 10.
+Data centers are connected in full mesh and the characteristics of the network connection is defined as the following:
+
+* High Bandwidth: Means there are no considerations for the size of monitoring data
+* Low Latency: Roundtrip time for communication is in hundreds of milli seconds.
+* Reliable: Network uses redundant protocols are provide fail over capabilities
+
+.Generic layout for data center driven environments
+image::network/pod.png[]
+
+.Pod
+In a data center a _Pod_ is described as a infrastructure assigned to a specific customer.
+_Pods_ are isolated for data protection reasons and are associated to a customer.
+A _Pods_ in a data center is comparable to a large server room in a company.
+
+.Network Equipment, Application and Database server
+In every _Pod_ you can find all the equipment similar to a network of a company.
+It should be possible to assign monitored data from this _Pod_ to a customer for security and surveillance context.

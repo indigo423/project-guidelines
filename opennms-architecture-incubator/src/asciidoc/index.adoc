@@ -1,0 +1,24 @@
+
+[[ocwg]]
+= OpenNMS Architecture Incubator
+:author: OpenNMS Foundation Europe e.V.
+:revnumber: {doc-version}
+:revdate: {last-update-label} {docdatetime}
+:version-label!:
+:ascii-ids:
+:encoding: UTF-8
+:icons: font
+:toc: left
+:toclevels: 3
+:numbered:
+:imagesdir: images
+
+// Network deployment scenarios
+include::text/network/introduction.adoc[]
+include::text/network/datacenter.adoc[]
+include::text/network/branches.adoc[]
+
+// Architecture draft for OpenNMS monitoring solution
+include::text/architecture/introduction.adoc[]
+include::text/architecture/minion-dominion.adoc[]
+include::text/architecture/locations.adoc[]

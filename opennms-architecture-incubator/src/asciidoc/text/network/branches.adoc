@@ -1,0 +1,12 @@
+
+// Allow GitHub image rendering
+:imagesdir: ../../images
+
+=== Branch Offices
+
+* Low Bandwidth: Means between the data center and the branch offices is limited bandwidth ~ synchronous 2 Mbit/s
+* High Latency: Roundtrip time for communication is in thousands of milli seconds
+* Unreliable: Network can be down up to an hour
+
+.Generic layout for branch office environment
+image::network/branch-scenario.png[]

@@ -1,0 +1,22 @@
+
+= Documentation Guide
+:author: OpenNMS Foundation Europe e.V.
+:revnumber: {doc-version}
+:revdate: {last-update-label} {docdatetime}
+:version-label!:
+:ascii-ids:
+:encoding: UTF-8
+:icons: font
+:toc: left
+:toclevels: 3
+:numbered:
+:imagesdir: images
+
+// Include your documentation sections here
+include::text/introduction.adoc[]
+include::text/git-workflow.adoc[]
+include::text/writing.adoc[]
+include::text/images.adoc[]
+include::text/include-source.adoc[]
+include::text/cheat-sheets.adoc[]
+include::text/reviewing.adoc[]

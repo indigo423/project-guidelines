@@ -1,0 +1,13 @@
+
+// Allow GitHub image rendering
+:imagesdir: ../../images
+
+=== Minion Dominion
+
+Architecture for Minion / Dominion.
+
+.Overview about relationship about Dominion, Core and Minions
+image::architecture/dominion-core-minion-overview.png[]
+
+.More detailed description about functionality
+image::architecture/dominion-core-minion-detail.png[]

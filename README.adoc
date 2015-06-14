@@ -1,0 +1,24 @@
+
+= Introduction
+
+= Compile documents
+
+The documentation can be generated in HTML and PDF format.
+It is required to have Java 7 or higher with link:https://maven.apache.org/[Maven] installed.
+To generate the output run the following command
+
+[source, bash]
+----
+mvn clean package
+----
+
+The output is generated to the `target/generated-docs` directory.
+
+= Tools
+
+* GraphUML editor: link:http://www.yworks.com/en/products_yed_download.html[yED]
+* Mindmapping: link:http://www.xmind.net/de/download/mac/[XMind]
+
+= License
+
+* CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/legalcode

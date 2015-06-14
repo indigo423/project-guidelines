@@ -1,0 +1,17 @@
+
+// Allow GitHub image rendering
+:imagesdir: ../../images
+
+== OpenNMS overall architecture
+
+=== Introduction
+
+Goals for the _OpenNMS_ Cluster architecture:
+
+* High Availability: Monitoring systems become an important part in the infrastructure.
+  The system part which does monitoring should be high available and resilient.
+  Restart or failure of monitoring components should not effecting other monitoring components.
+  The system should be distributable to allow a fail over.
+* Workload scalable: The amount of data and system which can be monitored require a scalable infrastructure.
+  Limitations can be the amount of open connections from a single system for active service monitoring and the time resources are bound during the test.
+  Beside availability monitoring there is a large amount of performance data which has to be gathered through several protocols and the persistence.

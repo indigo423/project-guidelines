@@ -1,0 +1,10 @@
+
+// Allow GitHub image rendering
+:imagesdir: ../../images
+
+=== Locations
+
+Something about locations here.
+
+.Relationship between Regions and Locations
+image::architecture/region-location-relationship.png[]
