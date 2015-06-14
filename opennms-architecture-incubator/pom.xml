@@ -28,6 +28,28 @@
                     <sourceDocumentName>index.adoc</sourceDocumentName>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>wagon-maven-plugin</artifactId>
+                <version>${wagonPluginVersion}</version>
+                <configuration>
+                    <serverId>opennms-docs-ssh</serverId>
+                    <fromDir>${project.build.directory}/generated-docs</fromDir>
+                    <includes>**</includes>
+                    <excludes>pom.xml</excludes>
+                    <url>scp://www.opennms.eu/var/www/docs/opennms-architecture-incubator </url>
+                    <toDir>${project.version}</toDir>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>upload-opennms-docs-ssh</id>
+                        <phase>deploy</phase>
+                        <goals>
+                            <goal>upload</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 </project>
