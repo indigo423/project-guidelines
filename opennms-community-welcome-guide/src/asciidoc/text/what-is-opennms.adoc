@@ -40,11 +40,11 @@ The basis for _Notifications_ in OpenNMS are _Events_.
 
 .Alarms and Event Correlation
 _Alarms_ are generated from _Events_ and are on a higher level.
-To correlate _Events_ to _Alarms_ there is a build it _Event_ deduplication and allows the usage of _Drools_.
+To correlate _Events_ to _Alarms_ there is a build in _Event_ deduplication and allows the usage of link:http://drools.org/[Drools].
 _Alarms_ can be integrated into service desk or incident management systems, i.e. link:http://www.otrs.org/[OTRS], link:https://bestpractical.com/rt/[RT].
 
 .ReST API
-To allow integration in complex environments _OpenNMS_ provides a variety of _ReST_ programming interfaces.
+To allow integration in complex environments _OpenNMS_ provides a variety of link:http://docs.opennms.org/OpenNMS/snapshot/develop/documentation/guide-development/#_rest_api[ReST programming interfaces].
 It is possible to get node assets, outages, alarms, notifications, events and collected performance data through a unified ReST API.
 
 .Event driven messaging

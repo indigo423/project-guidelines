@@ -80,13 +80,14 @@ image::release.png[]
 * _Release:_ Release date for _OpenNMS Horizon_ which can be installed as _Stable_ release.
 
 Phases for releases are announced on the _OpenNMS Developers_ mailing list.
-Releases are announced on the _OpenNMS announce_ mailing list and can also be found as entry on the _OpenNMS Website_.
+Releases are announced on the _OpenNMS announce_ mailing list and can also be found as entry on the _OpenNMS Website_ and changes are published in link:http://www.opennms.org/wiki/New_and_noteworthy[Release Notes].
 
 [[ocwg-bug-tracking]]
 === Bug tracking
 
-The _OpenNMS_ community and we appreciate testers and their feedback.
-Please verify the bug you found is not already been reported by searching _JIRAs_ bugs list: http://issues.opennms.org.
+The _OpenNMS_ community appreciates feedback from user and tester.
+Any bug in code, documentation or workflows can help us to improve the project and the software.
+If you find a bug please verify it is not already been reported by searching _JIRAs_ bugs list: http://issues.opennms.org.
 In the top menu _Issues_, you can use _Search for Issues_ in the project _OpenNMS_ with _Type: Bug_.
 
 If you found a new bug, fill out a bug report:
@@ -100,6 +101,8 @@ If you found a new bug, fill out a bug report:
   You can find it in the configuration `java.conf` in your OpenNMS configuration directory and by running `java -version`
 * Any deployment-specific info is helpful as well.
   Example: Ubuntu 14.04 LTS, which version of PostgreSQL, JRobin, RRDtool, store-by-group- or store-by-foreignsource settings.
+
+To verify bugs you can use the link:http://www.opennms.org/wiki/Mailing_lists[mailing lists] or the link:http://ask.opennms.eu/[Q&A board].
 
 [[ocwg-continuous-integration]]
 === Continuous Integration
