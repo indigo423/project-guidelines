@@ -7,7 +7,7 @@
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
     <name>Project Guidelines</name>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.4-SNAPSHOT</version>
     <description>Guidelines for working and contributing in the OpenNMS project.</description>
     <modules>
         <module>opennms-architecture-incubator</module>
@@ -33,6 +33,13 @@
     </properties>
     <build>
         <defaultGoal>process-resources</defaultGoal>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-ssh</artifactId>
+                <version>${wagonSshVersion}</version>
+            </extension>
+        </extensions>
         <plugins>
             <!-- we need this to copy the images to the generated-docs output directory, otherwise images would not be part of the generated-docs -->
             <plugin>
@@ -143,6 +150,28 @@
                     <configuration>
                         <skipAssembly>true</skipAssembly>
                     </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>wagon-maven-plugin</artifactId>
+                    <version>${wagonPluginVersion}</version>
+                    <configuration>
+                        <serverId>opennms-docs-ssh</serverId>
+                        <fromDir>${project.build.directory}/generated-docs</fromDir>
+                        <includes>**</includes>
+                        <excludes>pom.xml</excludes>
+                        <url>scp://www.opennms.eu/var/www/docs/opennms-community-welcome-guide</url>
+                        <toDir>${project.version}</toDir>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>upload-opennms-docs-ssh</id>
+                            <phase>deploy</phase>
+                            <goals>
+                                <goal>upload</goal>
+                            </goals>
+                        </execution>
+                    </executions>
                 </plugin>
             </plugins>
         </pluginManagement>

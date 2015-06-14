@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.opennms.project.guidelines</groupId>
         <artifactId>parent</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.4-SNAPSHOT</version>
     </parent>
     <artifactId>opennms-guide-doc</artifactId>
     <name>Project Guidelines :: Guide Documentation</name>
