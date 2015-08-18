@@ -11,7 +11,6 @@
     <description>Guidelines for working and contributing in the OpenNMS project.</description>
     <modules>
         <module>opennms-architecture-incubator</module>
-        <module>opennms-community-welcome-guide</module>
         <module>opennms-guide-doc</module>
     </modules>
     <properties>
@@ -97,6 +96,7 @@
                             <sourceHighlighter>prettify</sourceHighlighter>
                             <backend>html5</backend>
                             <doctype>book</doctype>
+                            <sourceHighlighter>prettify</sourceHighlighter>
                             <attributes>
                                 <stylesheet>../../../asciidoctor-default.css</stylesheet>
                             </attributes>
@@ -111,7 +111,7 @@
                         <configuration>
                             <backend>pdf</backend>
                             <doctype>book</doctype>
-                            <sourceHighlighter>prettify</sourceHighlighter>
+                            <sourceHighlighter>coderay</sourceHighlighter>
                             <attributes>
                                 <pagenums/>
                                 <toc/>
